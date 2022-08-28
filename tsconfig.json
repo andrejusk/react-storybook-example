@@ -1,0 +1,23 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "include": [
+        "src"
+    ],
+    "compilerOptions": {
+        "module": "commonjs",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "es2018"
+        ],
+        "jsx": "react-jsx",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "resolveJsonModule": true
+    }
+}

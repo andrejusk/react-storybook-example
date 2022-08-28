@@ -1,0 +1,69 @@
+{
+  "name": "react-storybook-example",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "test": "jest",
+    "storybook": "start-storybook -p 6006",
+    "start": "http-server ./public",
+    "build": "webpack",
+    "build:storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrejusk/react-storybook-example.git"
+  },
+  "author": "andrejusk",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/andrejusk/react-storybook-example/issues"
+  },
+  "homepage": "https://github.com/andrejusk/react-storybook-example#readme",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/register": "^7.18.9",
+    "@storybook/addon-actions": "^6.5.10",
+    "@storybook/addon-essentials": "^6.5.10",
+    "@storybook/addon-interactions": "^6.5.10",
+    "@storybook/addon-links": "^6.5.10",
+    "@storybook/builder-webpack4": "^6.5.10",
+    "@storybook/manager-webpack4": "^6.5.10",
+    "@storybook/react": "^6.5.10",
+    "@storybook/testing-library": "0.0.13",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "@types/chai": "^4.3.3",
+    "@types/jest": "^28.1.8",
+    "@types/node": "^18.7.13",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^29.0.1",
+    "babel-loader": "^8.2.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^4.3.6",
+    "css-loader": "^6.7.1",
+    "ignore-styles": "^5.0.1",
+    "jest": "^28.1.3",
+    "jest-environment-jsdom": "^29.0.1",
+    "jsdom": "^20.0.0",
+    "react-test-renderer": "^18.2.0",
+    "require-from-string": "^2.0.2",
+    "style-loader": "^3.3.1",
+    "ts-jest": "^28.0.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0"
+  }
+}

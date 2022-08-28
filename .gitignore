@@ -1,0 +1,6 @@
+node_modules
+.vscode
+dist
+tmp
+
+public/bundle.js*
