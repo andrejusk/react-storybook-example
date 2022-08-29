@@ -6,9 +6,9 @@
     "dev": "webpack-dev-server",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
+    "storybook:build": "build-storybook",
     "start": "http-server ./public",
-    "build": "webpack",
-    "build:storybook": "build-storybook"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/andrejusk/react-storybook-example#readme",
   "dependencies": {
     "http-server": "^14.1.1",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

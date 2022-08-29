@@ -3,7 +3,7 @@
 Kick off your React project with a boilerplate 🚀
 
 - React 18
-- TypeScript optional
+- TypeScript
 - Component library
 - Storybook documentation
 - Jest unit tests
@@ -30,32 +30,44 @@ pnpm i
 
 ## Use
 
-Run storybook:
+### Storybook
 
 ```bash
 pnpm storybook
 ```
 
-Run unit tests:
+Visit http://localhost:6006/
+
+```bash
+pnpm storybook:build
+```
+
+See `./storybook-static/` for output
+
+### Unit tests
 
 ```bash
 pnpm test
 ```
 
-Run application:
+### Example application
 
 ```bash
 pnpm dev
 ```
 
-Build dist:
+Visit http://localhost:8080/
+
+### Build
 
 ```bash
 pnpm build
 ```
 
-Run dist:
+### Serve
 
 ```bash
 pnpm start
 ```
+
+Visit http://localhost:8080/

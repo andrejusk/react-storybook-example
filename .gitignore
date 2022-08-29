@@ -1,6 +1,8 @@
 node_modules
+
 .vscode
-dist
 tmp
 
+storybook-static
 public/bundle.js*
+dist
